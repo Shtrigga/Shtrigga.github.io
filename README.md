@@ -1,2 +1,2 @@
-# Shtrigga.github.io
+# shtrigga.github.io
 Portfolio
