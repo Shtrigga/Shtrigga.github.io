@@ -1,0 +1,20 @@
+.header {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 20px;
+  /*& - указывает на имя родителя "header"*/
+}
+.header span {
+  display: block;
+}
+.header:hover {
+  background-color: #d4c9c9;
+}
+/*круглые скобки нужны, чтобы убрать свойство из CSS */
+/*чтобы это не повторять, делаем так:*/
+.header {
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+/*используем @ чтобы задать переменную для конкретного свойства*/
